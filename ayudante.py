@@ -19,6 +19,14 @@ class Ayudante(Investigador):
         return __Molecula_a_estudiar    
     def get_tipo():
         return __tipo_molecula
-
+    def ver_resultados_proteina(self,n):
+        print("El ayudante obtuvo los siguientes resultados de la proteina:\n")
+        Proteina.obtener_info(self,n)
+    def ver_resultados_Acido_nucleico(n):    
+        print("El ayudante obtuvo los siguientes resultados del acido nucleico:\n")
+        Acido_Nucleico.obtener_info(n)
+    def ver_resultados_Metabolito(self,n):
+        print("El ayudante obtuvo los siguientes resultados de el metabolito:\n")
+        Metabolito.obtener_info(n)
 
 
