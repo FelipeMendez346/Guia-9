@@ -23,10 +23,10 @@ class Investigador():
         if isinstance(metabolito,Metabolito):
             self.__Molecula_a_estudiar=metabolito
             self.__tipo_molecula="METABOLITO"
-    def get_Molecula():
-        return __Molecula_a_estudiar    
-    def get_tipo():
-        return __tipo_molecula
+    def get_Molecula(self):
+        return self.__Molecula_a_estudiar    
+    def get_tipo(self):
+        return self.__tipo_molecula
 
 
     def ver_resultados(self):
